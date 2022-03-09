@@ -1,0 +1,23 @@
+{
+  "name": "desafio_clase_16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "node server/main.js",
+    "dev": "nodemon server/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vscode/sqlite3": "^5.0.7",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "knex": "^1.0.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1",
+    "sqlite3": "^5.0.2"
+  }
+}
